@@ -3,8 +3,8 @@ import { ApolloServer } from "apollo-server-express";
 import cors from "cors";
 import dotenv from "dotenv";
 import sequelize from "./config/database.js";
-import { typeDefs } from "./schemas/typeDefs.js";
-import resolvers from "./resolvers/index.js";
+import { typeDefs } from "./backend/schemas/typeDefs.js";
+import resolvers from "./backend/resolvers/index.js";
 import authRoutes from "./routes/auth.js";
 
 dotenv.config();

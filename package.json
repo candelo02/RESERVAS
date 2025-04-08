@@ -1,16 +1,23 @@
 {
-  "name": "reserv",
+  "name": "restaurante-1.2",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/candelo02/RESERVAS.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/candelo02/RESERVAS/issues"
+  },
+  "homepage": "https://github.com/candelo02/RESERVAS#readme",
+  "description": "",
   "dependencies": {
     "apollo-server-express": "^3.13.0",
     "axios": "^1.8.4",
@@ -21,19 +28,9 @@
     "graphql": "^16.10.0",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.14.0",
-    "reserv": "file:",
-    "sequelize": "^6.37.6"
+    "sequelize": "^6.37.7"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/candelo02/RESERVA-RESTAURANTE.git"
-  },
-  "bugs": {
-    "url": "https://github.com/candelo02/RESERVA-RESTAURANTE/issues"
-  },
-  "homepage": "https://github.com/candelo02/RESERVA-RESTAURANTE#readme",
-  "description": ""
+    "nodemon": "^2.0.22"
+  }
 }
