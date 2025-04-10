@@ -40,4 +40,9 @@ export const typeDefs = gql`
   type Mutation {
     createReservation(userId: ID!, tableId: ID!, date: String!, time: String!): Reservation
   }
+  type Mutation {
+    createRestaurant(name: String!, address: String!, phone: String!): Restaurant
+    createTable(restaurantId: ID!, capacity: Int!): Table
+    createUser(name: String!, email: String!, phone: String!): User
+  }
 `;
